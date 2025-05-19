@@ -41,13 +41,9 @@ import { AppService } from './app.service';
         synchronize: true, // Set to false in production
       }),
     }),
-
     BooksModule,
-
     AdminModule,
-
     LoginModule,
-
   ],
   controllers: [AppController],
   providers: [AppService],
